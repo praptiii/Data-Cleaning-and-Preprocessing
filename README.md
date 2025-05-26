@@ -17,8 +17,8 @@ The following steps were applied using Python and pandas:
    
 3. **Standardized Text Values** - Cleaned `education` and `marital_status` values (lowercased and trimmed whitespace).
 
-4. **Standardized Column Names** - Renamed all column headers to lowercase with underscores (e.g., `Year_Birth` → `year_birth`).
+4. **Converted Date Formats** - Parsed the `dt_customer` column to `datetime` objects.
 
-5. **Converted Date Formats** - Parsed the `dt_customer` column to `datetime` objects.
+5. **Standardized Column Names** - Renamed all column headers to lowercase with underscores (e.g., `Year_Birth` → `year_birth`).
 
 6. **Corrected Data Types** - Converted `income` to `float` and `year_birth` to `int`.
