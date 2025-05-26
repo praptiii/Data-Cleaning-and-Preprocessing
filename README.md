@@ -9,13 +9,13 @@ I have used the **Customer Personality Analysis** dataset (source: Kaggle).
 
 ## Cleaning Steps Performed
 
-The following preprocessing steps were applied using Python and pandas:
+The following steps were applied using Python and pandas:
 
 1. **Identifying and Handling Missing Values** - Dropped the rows with missing values in the `Income` column.
 
 2. **Removing Duplicate Rows** - Eliminated any duplicate rows to ensure data consistency.
    
-3. **Standardize Text Values** - Cleaned `education` and `marital_status` values (lowercased and trimmed whitespace).
+3. **Standardized Text Values** - Cleaned `education` and `marital_status` values (lowercased and trimmed whitespace).
 
 4. **Standardized Column Names** - Renamed all column headers to lowercase with underscores (e.g., `Year_Birth` → `year_birth`).
 
